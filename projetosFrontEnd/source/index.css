@@ -1,0 +1,125 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+/* menu */
+header{
+    height: 10vh;
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    padding-right: 20px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+ul{
+    display: flex;
+    gap: 20px;
+    list-style: none;
+    font-size: 18px;
+}
+
+a{
+    color:black;
+    text-decoration: none;
+}
+
+/* Seção main */
+main{
+    background-image: url(fundoCafe.png);
+    background-size: cover;
+    min-height: 100vh;
+    position: relative;
+}
+
+.texto-sobreImagem{
+    padding-top: 100px;
+    padding-left: 100px;
+}
+
+/* seção cafes */
+.container-cards{
+    display: flex;
+    justify-content: space-evenly;
+    padding-top: 100px;
+}
+
+.cards p{
+    display: flex;
+    justify-content: center;
+    
+}
+
+/* seção cafe */
+.container-secaoCafe{
+    display: flex;
+    justify-content: space-evenly;
+    padding-top: 100px;
+}
+
+.texto-secaoCafe{
+    margin-top: 140px;
+    padding-left: 20px;
+}
+
+
+/* Tamanho da fonte h1 e p da seções */
+section h1{
+    font-size: 45px;
+    margin-bottom: 20px;
+}
+
+section p{
+    font-size: 20px;
+}
+
+.container-secaoMaquinas{
+    display: flex;
+    justify-content: space-evenly;
+    padding-top: 100px;
+}
+
+.texto-secaoMaquinas{
+    margin-top: 140px;
+    padding-left: 20px;
+}
+
+.container-secaoSobrenos{
+    display: flex;
+    justify-content: space-evenly;
+    padding-top: 100px;
+}
+
+.texto-secaoSobrenos{
+    margin-top: 140px;
+    padding-left: 20px;
+}
+
+/* Tamanho das imagens das secoes */
+.img-maquinas{
+    margin-left: 220px;
+    height: 570px;
+}
+
+#inscrever-se{
+    background-image: url(fundo-SecaoInscrever.png);
+    background-size: cover;
+    min-height: 100vh;
+    color: white;
+}
+
+button{
+    cursor: pointer;
+    padding: 10px 10px;
+}
+
+.formulario{
+    display: flex;
+    flex-direction: column;
+    justify-content: ;
+}
+
